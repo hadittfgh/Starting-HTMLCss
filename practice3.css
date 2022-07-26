@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Pixeled' ;
+    src: url('Fonts/Pixeled.ttf') ;
+}
+
+
+a{
+    width: 223px;
+    height: 92px;
+    text-align: center;
+    background: #c1e3ff; background: -moz-linear-gradient(45deg,  #c1e3ff 0%,#abc7ff 100%); background: -webkit-linear-gradient(45deg,  #c1e3ff 0%,#abc7ff 100%); background: linear-gradient(45deg,  #c1e3ff 0%,#abc7ff 100%);
+    color: white;
+    border: 1px solid rgb(166, 247, 5);
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin: 320px 600px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Pixeled';
+    box-shadow: 0px 10px 5px #6d8794;
+}
+
+
+
+body{
+    background: #d8ff7e; background: -moz-linear-gradient(to right,  #d8ff7e 0%,#97e7a2 100%); background: -webkit-linear-gradient(to right,  #d8ff7e 0%,#97e7a2 100%); background: linear-gradient(to right,  #d8ff7e 0%,#97e7a2 100%);
+}
+
+a:hover{
+    box-shadow: 7px 6px 3px #32bfbb , 10px 9px 3px #179fe3;
+    cursor:pointer;
+}
+
+a:visited{
+    color: teal;
+}
+
+a:active{
+    color: black;
+}

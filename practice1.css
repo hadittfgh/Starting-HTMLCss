@@ -1,0 +1,58 @@
+div.gradinet{
+    width: 1100px;
+    height: 500px;
+    background: #ffedd4; background: -moz-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: -webkit-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%);
+    margin: 120px 200px;
+    border-radius: 10px;
+}
+
+.right{
+    width: 200px;
+    height: 200px;
+    margin: 140px 50px 140px 750px;
+}
+
+p.righttext{
+    margin-top: -175px;
+    margin-left: 835px;
+}
+
+.middle{
+    width: 200px;
+    height: 200px;
+    margin: -212px 1px 140px 425px;
+}
+
+p.middletext{
+    margin-top: -165px;
+    margin-left: 510px;
+}
+
+.left{
+    width: 190px;
+    height: 180px;
+    margin: -215px 50px 140px 170px
+}
+
+.lefttext{
+    margin-top: -144px;
+    margin-left: 227px;
+}
+p{
+    color: black;
+}
+
+body{
+    background: #b2f9ff; background: -moz-linear-gradient(135deg,  #b2f9ff 0%,#efebbe 100%); background: -webkit-linear-gradient(135deg,  #b2f9ff 0%,#efebbe 100%); background: linear-gradient(135deg,  #b2f9ff 0%,#efebbe 100%);}
+
+
+a{
+    text-decoration : none;
+}
+ 
+a:visited{
+    background-color:#efebbe ;
+}
+p:visited{
+    background-color:#efebbe ;
+}

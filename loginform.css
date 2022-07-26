@@ -1,0 +1,81 @@
+input{
+    display: block;
+}
+a{
+    display:block;
+}
+
+@font-face {
+    font-family: "FrankRuhILibre";
+    src: url(Fonts/FrankRuhlLibre-Medium.ttf);
+}
+
+body{
+    background: rgb(48,38,212);
+    background: linear-gradient(90deg, rgba(48,38,212,1) 0%, rgba(64,158,243,0.95) 18%, rgba(23,145,255,0.46011908181241246) 100%);
+    font-family: "FrankRuhILibre";
+}
+div{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+
+p{
+    text-align: center;
+}
+
+input[type=text],
+input[type=email],
+input[type=password]{
+    border: none;
+    padding-bottom: 4px;
+    margin-bottom: 13px;
+    border-bottom:3px solid #3885f0;
+    width: 100%;
+}
+
+input[type=submit]{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background: rgb(84,145,255);
+background: linear-gradient(90deg, rgba(84,145,255,1) 0%, rgba(86,169,244,0.95) 18%, rgba(94,179,255,0.6786064767703957) 100%);
+    border: none;
+    border-radius: 5px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+    background: rgb(18,100,249);
+background: linear-gradient(90deg, rgba(18,100,249,1) 0%, rgba(18,130,232,0.95) 18%, rgba(10,114,207,0.6786064767703957) 100%);
+}
+
+input[type=text]:focus{
+    outline: none;
+    border-bottom: 3px solid #160eff;
+}
+
+input[type=email]:focus{
+    outline: none;
+    border-bottom: 3px solid #160eff;
+}
+input[type=password]:focus{
+    outline: none;
+    border-bottom: 3px solid #160eff;
+}
+

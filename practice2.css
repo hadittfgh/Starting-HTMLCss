@@ -1,0 +1,29 @@
+@font-face{
+    font-family:'Niconne' ;
+    src: url('Fonts/Niconne-Regular.ttf');
+}
+
+.Niconne{
+    font-family: 'Niconne';
+    color: #f0f084;
+    font-size: 90px;
+    text-shadow: 3px 5px 1px #8ce823, 5px 8px 1px #07f28c;
+}
+
+.background{
+    width: 1000px;
+    height: 350px;
+    margin: 200px 250px;
+    background: #000000; background: -moz-linear-gradient(to left,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to left,  #000000 0%,#0a1852 100%); background: linear-gradient(to left,  #000000 0%,#0a1852 100%);
+    border-radius: 15px;
+    
+}
+
+.center{
+    text-align: center;
+    padding-top: 125px;
+}
+
+body{
+    background: #f55555; background: -moz-linear-gradient(to right,  #f55555 0%,#fccf31 100%); background: -webkit-linear-gradient(to right,  #f55555 0%,#fccf31 100%); background: linear-gradient(to right,  #f55555 0%,#fccf31 100%);
+}
